@@ -1,0 +1,20 @@
+{
+  "name": "wc-tool",
+  "version": "0.0.1",
+  "description": "WC Tool built using Typescript",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node --esm index.ts './test.txt'",
+    "test": "test",
+    "build": "npx tsc"
+  },
+  "author": "Blair Phillips",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.3",
+    "ts-node": "^10.9.2"
+  }
+}
